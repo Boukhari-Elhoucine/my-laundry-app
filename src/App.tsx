@@ -1,9 +1,14 @@
 import './utils/I18n';
-import './App.css';
 import Home from './features/Home/Home';
+import { ThemeProvider } from '@mui/material/styles';
+import theme from './shared/theme/theme';
 
 const App = () => {
-  return <Home />;
+  return (
+    <ThemeProvider theme={theme}>
+      <Home />
+    </ThemeProvider>
+  );
 };
 
 export default App;
