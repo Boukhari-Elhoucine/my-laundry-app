@@ -7,6 +7,7 @@
     "plugin:react-hooks/recommended",
     "plugin:react/recommended"
   ],
+
   "ignorePatterns": ["dist", ".eslintrc"],
   "parser": "@typescript-eslint/parser",
   "plugins": ["react-refresh", "react"],
@@ -15,6 +16,11 @@
     "react-refresh/only-export-components": [
       "warn",
       { "allowConstantExport": true }
-    ]
+    ],
+    "react/jsx-uses-vars": "error",
+    "react/jsx-no-undef": "error",
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-explicit-any": "error",
+    "@typescript-eslint/no-var-requires": "error"
   }
 }
