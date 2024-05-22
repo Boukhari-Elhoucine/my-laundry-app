@@ -13,10 +13,22 @@ const theme = createTheme({
     },
     background: {
       default: "'#F7FEFF'",
+      paper: '#FFFFFF',
     },
   },
   typography: {
-    fontFamily: 'Roboto', // Change the default font family
+    fontFamily: 'Roboto ', // Change the default font family
+    // fontFamily: ['"Roboto "', 'Grandstander','Inter'].join(','),
+  },
+
+  components: {
+    MuiCssBaseline: {
+      styleOverrides: {
+        body: {
+          backgroundColor: '#F7FEFF', // Ensure the body has the same background color
+        },
+      },
+    },
   },
 });
 
