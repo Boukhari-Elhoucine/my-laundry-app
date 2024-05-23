@@ -5,7 +5,7 @@
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:react-hooks/recommended",
-    "plugin:react/recommended"
+    "plugin:react/recommended",
   ],
 
   "ignorePatterns": ["dist", ".eslintrc"],
@@ -15,12 +15,12 @@
     "react/react-in-jsx-scope": "off",
     "react-refresh/only-export-components": [
       "warn",
-      { "allowConstantExport": true }
+      { "allowConstantExport": true },
     ],
     "react/jsx-uses-vars": "error",
     "react/jsx-no-undef": "error",
     "@typescript-eslint/no-unused-vars": "error",
     "@typescript-eslint/no-explicit-any": "error",
-    "@typescript-eslint/no-var-requires": "error"
-  }
+    "@typescript-eslint/no-var-requires": "error",
+  },
 }
