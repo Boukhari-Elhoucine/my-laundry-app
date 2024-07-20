@@ -3,13 +3,13 @@ import { StoryObj, Meta } from '@storybook/react';
 
 export default {
   title: 'Design/shared/components/Buttons',
-  component: PrimaryButton,
+  component: PrimaryButton
 } as Meta;
 
-type Story = StoryObj<typeof PrimaryButton>;
+type Story = StoryObj;
 
 export const Primary: Story = {
   args: {
-    children: 'text',
-  },
+    children: 'text'
+  }
 };
