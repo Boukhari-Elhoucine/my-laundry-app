@@ -5,19 +5,19 @@ const theme = createTheme({
   palette: {
     primary: {
       light: '#D0F6FF',
-      main: '#21B7E2', // Your desired primary color
+      main: '#21B7E2' // Your desired primary color
     },
     text: {
       primary: '#00334C',
-      secondary: '#489FB5', // Your desired secondary color
+      secondary: '#489FB5' // Your desired secondary color
     },
     background: {
-      default: "'#F7FEFF'",
-    },
+      default: "'#F7FEFF'"
+    }
   },
   typography: {
-    fontFamily: 'Roboto', // Change the default font family
-  },
+    fontFamily: 'Roboto' // Change the default font family
+  }
 });
 
 export default theme;
